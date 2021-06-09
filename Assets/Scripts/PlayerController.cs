@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.VFX;
 
 public class PlayerController : MonoBehaviour {
     /// <summary>
@@ -53,7 +54,7 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] private GameObject bulletPrefab;
 
     [SerializeField] private Transform bulletSpawn;
-    [SerializeField, Range(1, 120)] private int rateOfFire = 30;
+    [SerializeField, Range(1, 350)] private int rateOfFire = 30;
     private float nextTimeToFire;
     
     // reference for the player camera.
@@ -61,6 +62,9 @@ public class PlayerController : MonoBehaviour {
     
     // Gun animator.
     private Animator gunAnim;
+    private VisualEffect muzzleFlash;
+    [SerializeField] private AudioClip gunshotClip;
+    private AudioSource aSource;
 
     // Player components.
     // Player Rigidbody
@@ -72,6 +76,8 @@ public class PlayerController : MonoBehaviour {
         playerCamera = GetComponentInChildren<CinemachineVirtualCamera>().transform.gameObject;
         rb = GetComponent<Rigidbody>();
         gunAnim = GetComponentInChildren<Animator>();
+        muzzleFlash = GetComponentInChildren<VisualEffect>();
+        aSource = GetComponentInChildren<AudioSource>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -80,16 +86,17 @@ public class PlayerController : MonoBehaviour {
             Cursor.lockState = (Cursor.lockState == CursorLockMode.Locked ?
                 CursorLockMode.None : CursorLockMode.Locked);
         }
-        
+
         if(!canMove) return;
-        CheckGround();
-        Movement();
         Rotation();
         Pistol();
     }
 
     // Used to call the footstep sounds if the player is moving.
     private void FixedUpdate() {
+        if(!canMove) return;
+        CheckGround();
+        Movement();
         if(!isMoving) return;
         if(!(Time.time > nextTimeToPlayFootstep)) return;
         nextTimeToPlayFootstep = Time.time + walkingSpeedSound;
@@ -110,7 +117,7 @@ public class PlayerController : MonoBehaviour {
         var movement = (horizontal + vertical).normalized * playerSpeed;
 
         if(movement != Vector3.zero) {
-            rb.MovePosition(rb.position + movement * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + movement * Time.deltaTime);
             isMoving = true;
         } else {
             isMoving = false;
@@ -162,10 +169,12 @@ public class PlayerController : MonoBehaviour {
     /// </summary>
     private void Pistol() {
         if(Time.time < nextTimeToFire) return;
-        if(!Input.GetKeyDown(KeyCode.Mouse0)) return;
+        if(!Input.GetKey(KeyCode.Mouse0)) return;
         nextTimeToFire = Time.time + 60f / rateOfFire;
         Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
         gunAnim.SetTrigger(GunFireAnim);
+        muzzleFlash.Play();
+        aSource.PlayOneShot(gunshotClip);
     }
 
     #if UNITY_EDITOR
