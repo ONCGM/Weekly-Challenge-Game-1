@@ -80,7 +80,6 @@
       <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1° Game - 10 Week Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1° Game - 10 Week Challenge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Target.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/VFX/Muzzle Flash.vfx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/Muzzle Flash.vfx" afterDir="false" />
@@ -154,7 +153,7 @@
       <updated>1622221094069</updated>
       <workItem from="1622221098458" duration="646000" />
       <workItem from="1623098231171" duration="11978000" />
-      <workItem from="1623188497520" duration="4182000" />
+      <workItem from="1623188497520" duration="4944000" />
     </task>
     <servers />
   </component>
