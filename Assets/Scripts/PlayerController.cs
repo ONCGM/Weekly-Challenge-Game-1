@@ -58,15 +58,20 @@ public class PlayerController : MonoBehaviour {
     
     // reference for the player camera.
     private GameObject playerCamera;
+    
+    // Gun animator.
+    private Animator gunAnim;
 
     // Player components.
     // Player Rigidbody
     private Rigidbody rb;
-    
+    private static readonly int GunFireAnim = Animator.StringToHash("Fire");
+
     // Gets needed references.
     private void Start() {
         playerCamera = GetComponentInChildren<CinemachineVirtualCamera>().transform.gameObject;
         rb = GetComponent<Rigidbody>();
+        gunAnim = GetComponentInChildren<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -160,6 +165,7 @@ public class PlayerController : MonoBehaviour {
         if(!Input.GetKeyDown(KeyCode.Mouse0)) return;
         nextTimeToFire = Time.time + 60f / rateOfFire;
         Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        gunAnim.SetTrigger(GunFireAnim);
     }
 
     #if UNITY_EDITOR

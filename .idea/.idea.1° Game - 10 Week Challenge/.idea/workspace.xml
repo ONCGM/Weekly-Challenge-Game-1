@@ -2,65 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96642d1c-3b43-4889-b9fa-9c8b2bccee75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/DoorAnimController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/DoorOpenAnimation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/DoorOpenAnimation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door Frame Unlocked.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door Frame Unlocked.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door Frame.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door Frame.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door Unlocked.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door Unlocked.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Door.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Presets/Bullet Material.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Presets/Bullet Material.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Door.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Door.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Target.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Target.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Global Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Global Volume Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Thirdparty/Gridbox Prototype Materials/Resources/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Thirdparty/Gridbox Prototype Materials/Resources/ProBuilder Data/Default Material Palette.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Thirdparty/PolygonPrototype/Materials/PolygonPrototype_Global_Grid_20.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Thirdparty/PolygonPrototype/Materials/PolygonPrototype_Global_Grid_20.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Thirdparty/PolygonPrototype/Materials/PolygonPrototype_Texture_Emission.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Thirdparty/PolygonPrototype/Materials/PolygonPrototype_Texture_Emission.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GunAnimator.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GunAnimator.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GunFiringAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/GunFiringAnimation.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1° Game - 10 Week Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1° Game - 10 Week Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleCameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/PolygonPrototype/Materials/PolygonPrototype_Texture_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/PolygonPrototype/Materials/PolygonPrototype_Texture_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +29,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18892.8608/Missile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18892.10747/Missile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tAo7talC3UUahZFPLctMIXltO9" />
@@ -133,6 +86,7 @@
       <updated>1622221094069</updated>
       <workItem from="1622221098458" duration="646000" />
       <workItem from="1623098231171" duration="11978000" />
+      <workItem from="1623188497520" duration="1261000" />
     </task>
     <servers />
   </component>
